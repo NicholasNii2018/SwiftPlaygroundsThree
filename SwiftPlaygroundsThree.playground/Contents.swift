@@ -35,3 +35,13 @@ print(fruitBasket[6])
 
 print(fruitBasket[5])
 
+//Part 8, Start of Assignment #4
+
+var familyLife: [Int]
+familyLife = [1,2,3,4]
+for number in familyLife{
+    print("My favorite number is " + String(number))
+}
+familyLife.remove(at: 3)
+familyLife.append(5)
+print(familyLife)
